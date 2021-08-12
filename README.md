@@ -1,6 +1,32 @@
-# Para casa!
+### {reprograma} week 07 - API :rocket: 
+---
+<p align = "center">
+<a align href = "#Sobre">Sobre</a> │
+<a align href = "#Objetivo">Objetivo</a> │
+<a align href = "#Regras">Regras</a> │
+<a align href = "#Tecnologias">Tecnologias</a> │
+<a align href = "#Pré-requisitos">Pré-requisitos</a> │
+<a align href = "#Autora">Autora</a>
+</p>
 
-Para casa ficam as seguintes rotas das demandas de negócio:
+---
+
+## Sobre
+<p>Exercício desenvolvido no bootcamp da {reprograma} onde nos foi ensinado o conceito de API: GET. </p>
+
+## Objetivo
+<p>O objetivo desse exercício é realizar uma API(Application Programming Interface) utilizando apenas o método GET de acordo com a demanda de negócio informada abaixo.</p>
+
+## Regras
+
+- Todas as rotas serão de consulta e leitura, logo, todas se referem ao método GET;
+- Todas as rotas devem ter tratamentos de erros caso o cliente envie valores invalidos;
+- Retornar todas os estados e suas cidades;
+- Retornar todos os estados e siglas, sem as cidades;
+- Pesquisa por sigla que retorne o nome do estado, sigla e suas cidades;
+- Pesquisa por sigla que retorne somente as cidades do estado pesquisado;
+
+As rotas das demandas de negócio:
 
 ### [GET] "/estados/todos"
 
@@ -25,4 +51,26 @@ O exercício para casa devera ser feito dentro da pasta servidor-para-casa. Lá 
 			    |       estados-cidades.json**
 ```
 
-Observe que o json de estados-cidades, está um pouco mais simples! **O foco desse exercício é que vocês consigam entender bem quais são os comandos necessários para criar um servidor com node.js**
+
+## Tecnologias
+- [VsCode](https://code.visualstudio.com/download)
+- [Node.js](https://nodejs.org/en/download/)
+- [Postman](https://www.postman.com/downloads/)
+
+## Pré-requisitos
+
+    npm i nodemoon
+
+## Autora
+Made with :purple_heart: by [Lívia Oliveira](https://www.linkedin.com/in/l%C3%ADvia-de-oliveira-almeida/)
+
+
+
+
+
+
+
+
+
+
+
